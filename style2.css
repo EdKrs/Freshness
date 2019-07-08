@@ -1,0 +1,135 @@
+body{
+	margin: auto;
+	width: 1000px;
+	height: 1800px;
+}
+#header{
+	border-top: solid 5px darkturquoise;
+	padding: 20px 10px;
+}
+.up{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.icon:hover{
+	background-color: orange;
+}
+.zero{
+	margin: 0;
+	padding: 0;
+}
+ul.zero{
+	list-style: none;
+	display: flex;
+}
+ul li{
+	margin-left: 10px;
+}
+a{
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+}
+.search{
+background-color: black;
+color: white;
+border: none;
+width: 200px;
+padding: 7px;
+border-radius: 10px;
+}
+input[type='submit']{
+	
+    background-color: darkturquoise;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 7px;
+    border-radius: 12%;
+}
+.end{
+	background-color: #1a1a1a;
+	color: lightgray;
+	padding: 20px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: #252525;
+	color: lightgray;
+	padding: 20px;
+	grid-column-gap: 30px;
+}
+.border{
+	border-bottom: solid 2px darkgrey;
+	color:darkturquoise;	
+	padding-bottom: 10px;
+}
+.right{
+	float: right;
+	color:darkturquoise;
+}
+.inptext{
+    background-color: #2c2c2c;
+    border: none;
+	color: white;
+	margin-bottom: 12px;
+    border-radius: 12px;
+    padding: 7px;
+    width: -webkit-fill-available;
+}
+.flex{
+	display: flex;
+}
+.bordt{
+	border-top: solid gray;
+	padding: 20px;
+}
+.carousel-inner>.item>img{
+	height: fit-content;
+}
+.grid3{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 20px;
+	grid-column-gap: 30px;
+}
+.img300{
+	width: 300px;
+	height: 160px;
+}
+.gridr2{
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 30px;
+}
+.gridr2 img{
+	margin: 14px;
+	width: 80px;
+	height: 80px;
+}
+.item div{
+	margin:40px;
+}
+.carousel-indicators li{
+	border:1px solid black;
+}
+.carousel-indicators .active{
+	background-color: blue;
+}
+.carousel{
+	height: 360px;
+	width: 500px;
+}
+.carousel-inner{
+	height: inherit;
+}
+.img100{
+	width: 100px;
+	height: 100px;
+}
